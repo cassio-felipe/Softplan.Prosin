@@ -1,3 +1,4 @@
+using CalculaJurosAPI.Constants;
 using CalculaJurosAPI.Controllers;
 using Microsoft.AspNetCore.Mvc;
 using NUnit.Framework;
@@ -20,7 +21,7 @@ namespace CalculaJurosAPITest.Controller
             var actionResult = _showMeTheCodeController.ShowMeTheCode();
             Assert.NotNull(actionResult.Result);
             Assert.AreEqual(200, ((OkObjectResult) actionResult.Result).StatusCode); 
-            Assert.AreEqual("https://github.com/cassio-felipe/Softplan.Prosin", ((OkObjectResult) actionResult.Result).Value);
+            Assert.AreEqual(CalculaJurosCons.GITHUB_URL, ((OkObjectResult) actionResult.Result).Value);
         }
     }
 }

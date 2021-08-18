@@ -1,3 +1,4 @@
+using JurosAPI.Constants;
 using JurosAPI.Controllers;
 using JurosAPI.Domain;
 using Microsoft.AspNetCore.Mvc;
@@ -21,7 +22,7 @@ namespace JurosAPITest.Controller
             var actionResult = _jurosController.TaxaJuros();
             Assert.NotNull(actionResult.Result);
             Assert.AreEqual(200, ((OkObjectResult) actionResult.Result).StatusCode); 
-            Assert.AreEqual(0.01M, ((OkObjectResult) actionResult.Result).Value);
+            Assert.AreEqual(TaxaJurosCons.TAXA, ((OkObjectResult) actionResult.Result).Value);
         }
     }
 }

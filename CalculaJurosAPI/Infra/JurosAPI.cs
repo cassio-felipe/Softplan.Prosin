@@ -3,12 +3,14 @@ using System.IO;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Text.Json;
+using CalculaJurosAPI.Constants;
+
 namespace CalculaJurosAPI.Infra
 {
     public class JurosApi : IJurosApi
     {
         private Uri _jurosUri { get; }
-        private readonly string _apiFinanceiroTaxaJuros = "https://localhost:5003/taxaJuros";
+        private readonly string _apiFinanceiroTaxaJuros = CalculaJurosCons.JUROS_API_URL;
         private readonly HttpClient _httpClient;
 
         public JurosApi()
