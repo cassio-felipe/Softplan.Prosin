@@ -1,7 +1,7 @@
 using CalculaJurosAPI.Domain;
 using NUnit.Framework;
 
-namespace CalculaJurosAPITest
+namespace CalculaJurosAPITest.Domain
 {
     public class Tests
     {

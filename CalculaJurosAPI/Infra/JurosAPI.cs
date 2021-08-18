@@ -5,21 +5,21 @@ using System.Threading.Tasks;
 using System.Text.Json;
 namespace CalculaJurosAPI.Infra
 {
-    public class JurosAPI : IJurosAPI
+    public class JurosApi : IJurosApi
     {
         private Uri _jurosUri { get; }
         private readonly string _apiFinanceiroTaxaJuros = "https://localhost:5003/taxaJuros";
         private readonly HttpClient _httpClient;
 
-        public JurosAPI()
+        public JurosApi()
         {
             _jurosUri = new Uri(_apiFinanceiroTaxaJuros);
             _httpClient = new HttpClient();
         }
         public async Task<decimal> GetJuros()
         {
-            Stream responseStream = await _httpClient.GetStreamAsync(_jurosUri);
-            var taxaAtual = await JsonSerializer.DeserializeAsync<decimal>(responseStream);
+            Stream response = await _httpClient.GetStreamAsync(_jurosUri);
+            var taxaAtual = await JsonSerializer.DeserializeAsync<decimal>(response);
 
             return taxaAtual;
         }

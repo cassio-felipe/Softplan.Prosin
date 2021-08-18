@@ -11,9 +11,8 @@ namespace CalculaJurosAPI.Controllers
         [HttpGet]
         public ActionResult<string> ShowMeTheCode()
         {
-            //verificar sobre injeção de dependencia
             var urlGitHub = new ShowMeTheCode();
-            return Ok(urlGitHub.getUrlGitHub());
+            return Ok(urlGitHub.GetUrlGitHub());
         }
     }
 }

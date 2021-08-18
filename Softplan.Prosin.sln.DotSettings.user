@@ -1,6 +1,13 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1637011d_002Ded23_002D46bb_002D86cf_002Df1a82aa4f75f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from CalculaJurosTest.cs" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1637011d_002Ded23_002D46bb_002D86cf_002Df1a82aa4f75f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from CalculaJurosTest.cs" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;NUnit3x::DADF430A-5D93-4565-878F-6C71B44543DE::net5.0::CalculaJurosAPITest.Tests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::DADF430A-5D93-4565-878F-6C71B44543DE::net5.0::CalculaJurosAPITest.Domain.Tests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::DADF430A-5D93-4565-878F-6C71B44543DE::net5.0::CalculaJurosAPITest.Controller.ShowMeTheCodeControllerTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=bdc95ca7_002D9914_002D48d9_002Da2ca_002D13c4a41ad627/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ShouldTruncateValue" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::DADF430A-5D93-4565-878F-6C71B44543DE::net5.0::CalculaJurosAPITest.Controller.CalculaJurosControllerTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::DADF430A-5D93-4565-878F-6C71B44543DE::net5.0::CalculaJurosAPITest.Controller.ShowMeTheCodeControllerTest.ShouldReturnGitUrl&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -13,13 +13,6 @@ namespace JurosAPI.Controllers
     [ApiController]
     public class TaxaJurosController : ControllerBase
     {
-        private readonly ILogger<TaxaJurosController> _logger;
-
-        public TaxaJurosController(ILogger<TaxaJurosController> logger)
-        {
-            _logger = logger;
-        }
-        
         [HttpGet]
         [ProducesResponseType(200)]
         public ActionResult<decimal> TaxaJuros()
