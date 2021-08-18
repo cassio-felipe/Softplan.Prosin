@@ -9,5 +9,7 @@
   &lt;TestAncestor&gt;
     &lt;TestId&gt;NUnit3x::DADF430A-5D93-4565-878F-6C71B44543DE::net5.0::CalculaJurosAPITest.Controller.CalculaJurosControllerTest&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::DADF430A-5D93-4565-878F-6C71B44543DE::net5.0::CalculaJurosAPITest.Controller.ShowMeTheCodeControllerTest.ShouldReturnGitUrl&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BEF60B1F-623E-4D2B-9615-38FF366E3005::net5.0::JurosAPITest.Domain.TaxaJurosTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BEF60B1F-623E-4D2B-9615-38FF366E3005::net5.0::JurosAPITest.Controller.TaxaJurosControllerTest.ShouldCalculateCorrectInterest&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
